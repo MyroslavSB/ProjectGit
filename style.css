@@ -12,6 +12,17 @@ a {
   color: inherit;
 }
 
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
 .d-flex {
   display: flex;
 }
@@ -20,15 +31,37 @@ a {
   align-items: center;
 }
 
+.justify-content-center {
+  justify-content: center;
+}
+
 .container {
   max-width: 1114px;
   padding: 0 15px;
   margin: auto;
 }
 
+.btn {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  padding: 16px 30px;
+}
+
+.btn-default {
+  background-color: #fff;
+  box-shadow: 0 4px 20px #0F064C;
+  color: #0F064C;
+}
+
+
 .header {
-  background: black;
   padding: 40px 0;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
 }
 
 .main-header-nav {
@@ -47,4 +80,49 @@ a {
   margin-left: auto;
 }
 
+.inner {
+  height: 100vh;
+  background: linear-gradient(89.85deg, #23196F 0.13%, #180D5B 99.88%);
+  padding-top: 106px;
+}
 
+.inner-call-to-action {
+  max-width: 545px;
+}
+
+.call-to-action-title {
+  font-weight: bold;
+  font-size: 48px;
+  color: #fff;
+  line-height: 1.29;
+  margin-top: 50px;
+}
+
+.call-to-action-desc {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #fff;
+  margin-top: 20px;
+  max-width: 390px;
+  margin-bottom: 55px;
+}
+
+.call-to-action-desc span {
+  color: #36a7b9;
+  font-weight: 700;
+}
+
+.test-your-email {
+  display: inline-block;
+}
+
+.email-not-required {
+  margin-top: 15px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+}
+
+.email-not-required span {
+  margin-left: 14px;
+}
