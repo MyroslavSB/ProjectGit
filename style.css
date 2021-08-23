@@ -35,6 +35,10 @@ p, h1, h2, h3, h4, h5, h6 {
   justify-content: center;
 }
 
+.justify-content-between {
+  justify-content: space-between;
+}
+
 .container {
   max-width: 1114px;
   padding: 0 15px;
@@ -84,10 +88,12 @@ p, h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   background: linear-gradient(89.85deg, #23196F 0.13%, #180D5B 99.88%);
   padding-top: 106px;
+  min-height: 960px;
 }
 
 .inner-call-to-action {
-  max-width: 545px;
+  max-width: 545px;;
+  position: relative;
 }
 
 .call-to-action-title {
@@ -96,6 +102,7 @@ p, h1, h2, h3, h4, h5, h6 {
   color: #fff;
   line-height: 1.29;
   margin-top: 50px;
+
 }
 
 .call-to-action-desc {
@@ -125,4 +132,30 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .email-not-required span {
   margin-left: 14px;
+}
+
+.inner-services-wrap {
+  margin-top: 95px;
+}
+
+.inner-services-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.29;
+  margin-bottom: 30px;
+  color: #fff;
+  max-width: 365px;
+}
+
+.inner-service-list-item {
+  height: 164px;
+  width: 164px;
+  background: rgba(15, 6, 76, 0.45);
+  cursor: pointer;
+
+}
+
+.inner-service-list-item:hover{
+  background-color: #fff;
+
 }
