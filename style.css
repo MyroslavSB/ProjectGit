@@ -3,3 +3,8 @@ body{
   margin: 0;
 
 }
+h1{
+  font-family: 'PT Sans', 'sans-serif';
+  color: red;
+
+}
